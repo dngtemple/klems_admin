@@ -12,6 +12,8 @@ function App() {
   const Revenue=lazy(() => import('./revenue'));
   const Barbers=lazy(() => import('./barbers'));
   const Clients=lazy(() => import('./clients'));
+  const All= lazy(() => import('./all'));
+  const Today= lazy(() => import('./today'));
  
 
   return (
@@ -28,6 +30,8 @@ function App() {
             <Route path="/revenue" element={<Revenue />} />
             <Route path="/barbers" element={<Barbers />} />
             <Route path="/users" element={<Clients />} />
+            <Route path="/today" element={<Today />} />
+            <Route path="/all" element={<All />} />
           </Route>
           
         </Routes>

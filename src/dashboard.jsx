@@ -24,8 +24,15 @@ export default function Dashboard() {
           <Link to="/users" className="text-left btn text-gray-700 hover:text-black transition-colors">
             <button>Customers</button>
           </Link>
-         <button className="text-left btn text-gray-700 hover:text-black transition-colors">Today appointments</button>
-         <button className="text-left btn text-gray-700 hover:text-black transition-colors">All appointments</button>
+
+          <Link to="/today" className="text-left btn text-gray-700 hover:text-black transition-colors">
+            <button>Today appointments</button>
+          </Link>
+          
+          <Link to="/all" className="text-left btn text-gray-700 hover:text-black transition-colors">
+            <button>All appointments</button>
+          </Link>
+
 
          <Link to="/revenue" className="text-left btn text-gray-700 hover:text-black transition-colors">
          <button>Revenue</button>
